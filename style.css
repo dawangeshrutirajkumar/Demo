@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: #f4f4f4; */
+}
+
+/* .container {
+  padding: 50px;
+} */
+.welcome-container {
+  background-color: rgb(182, 182, 46);
+}
+.title{
+  font-family: Verdana, sans-serif;
+  font-size: 50px;
+  color: rgb(100, 72, 2);
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.buttons {
+  /* margin-top: 450px; */
+  position: fixed; /* Fix the position */
+    bottom: 10px;    /* Space from the bottom */
+    left: 50%; 
+
+    transform: translateX(-50%); /* Adjust to exact center */
+    display: flex;   /* Flexbox for arranging buttons */
+    gap: 10px;  
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(67, 50, 7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  /* margin: 0 10px; */
+}
+
+
+button:hover {
+  background-color: #482b04;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  display: flex;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.menu-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  background-color: rgb(200, 161, 31);
+  
+}
+
+.menu-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.billcontainer{
+  margin-top: 500px;
+}
+#billItems {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+#billItems li {
+  margin: 10px 0;
+}
